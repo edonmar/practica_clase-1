@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>horario</title>
+    <link rel="stylesheet" href="horario.css">
+    <script src=horario.js></script>
+</head>
+<body>
+  
+    <div id=nav>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li id=li_perfil><a href="#">Perfil</a></li>
+        
+          <!--<li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>-->
+
+    </ul>
+    </div>
+     
+      
+
+    <div id=main_div>
+       <div id=bienvenida>
+         <p id=welcome>Bienvenido/a </p>  
+     </div>
+        
+        <table id=tb_horario >
+            <tr>
+               <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+               <td id=horas>8:15 <br>a 9:15</td>
+                <td rowspan="2" class=diseño name=asignatura>Diseño Interfaces web<br><span>(HTML)</span></td>
+                <td rowspan="2" class=hlc name=asignatura>Horas Libre Configuracion<br><span>(PHP)</span></td>
+                <td rowspan="2" class=diseño name=asignatura>Diseño Interfaces web<br><span>(HTML)</span></td>
+                <td rowspan="2" class=empresa name=asignatura>Empresa e Iniciativa Emprendedora
+                </td>
+                <td class=despliegue name=asignatura>Despliegue Aplicaciones Web<br><span>(GIT)</span></td>
+            </tr>
+            <tr>
+                <td id=horas>9:15 <br>a 10:15</td>
+               <td rowspan="2" class=servidor name=asignatura>Desarrollo Web Servidor<br><span>(C# - Vb - PHP)</span></td>
+            </tr>
+            <tr>
+              <td id=horas>10:15 <br>a 11:15</td>
+                <td rowspan="2" class=empresa name=asignatura>Empresa e Iniciativa Emprendedora </td>
+                <td rowspan="2" class=servidor name=asignatura>Desarrollo Web Servidor<br><span>(C# - Vb - PHP)</span></td>
+                <td rowspan="2" class=despliegue name=asignatura>Despliegue Aplicaciones Web<br><span>(GIT)</span></td>
+                <td rowspan="2" class=diseño name=asignatura>Diseño Interfaces web<br><span>(HTML)</span></td>
+
+            </tr>
+            <tr>
+                 <td id=horas>11:45 <br>a 12:45</td>
+                 <td rowspan="2" class=cliente name=asignatura>Desarrollo Web Cliente<br><span>(JavaScript)</span></td>
+            </tr>
+            <tr>
+               <td id=horas>12:45 <br>a 13:45</td>
+                <td rowspan="2" class=servidor name=asignatura>Desarrollo Web Servidor<br><span>(C# - Vb - PHP)</span></td>
+                <td rowspan="2" class=cliente name=asignatura>Desarrollo Web Cliente<br><span>(JavaScript)</span></td>
+                <td rowspan="2" class=servidor name=asignatura>Desarrollo Web Servidor<br><span>(C# - Vb - PHP)</span></td>
+                <td rowspan="2" class=cliente name=asignatura>Desarrollo Web Cliente<br><span>(JavaScript)</span></td>
+
+            </tr>
+            <tr>
+               <td id=horas>13:45 <br>a 14:45</td>
+                <td class=hlc name=asignatura>Horas Libre Configuracion<br><span>(PHP)</span></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:arial;
+}
+#nav{
+    color:darkslategrey;
+    font-size: 28px;
+    background-color: #00091a;
+    height: 30px;
+    width: 100%;
+    top:0;
+    left:0;
+    position: fixed;
+    display: inline-block;
+  }
+#nav a{
+    text-decoration: none;
+    color:white;
+    padding:30px;
+    height: 100%;
+
+}
+#nav ul{
+  height: 100%;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:black;
+   
+}
+#nav li{
+  height: 100%;
+   float:left;
+}
+#nav li:hover{
+/*   background-color:#33f4cd; */
+  background-color: grey;
+
+}
+
+#bienvenida{
+   margin:3em;
+}
+#tb_horario{
+  margin-top: 2%;
+    border:4px solid black;
+    border-style: groove;
+    margin-left:1%;
+    margin-bottom: 1%;
+
+    width:900px;
+    font-family: Arial;
+}
+#tb_horario th{
+    font-size: 18px;
+    padding:6px;
+    text-underline-position: below;
+}
+
+#tb_horario td{
+    text-align: center;
+    border: 1px solid;
+}
+
+#tb_horario .diseño:hover,#tb_horario .despliegue:hover, #tb_horario .empresa:hover,#tb_horario .servidor:hover, #tb_horario .cliente:hover,#tb_horario .hlc:hover{
+    border-color:#1aff1a;
+    cursor:pointer;
+
+}
+
+#horas{
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    padding:15px;
+}
+#tb_horario span{
+    color:red;
+    font-style: italic;
+}
+.despliegue{
+      background-color: #ffc299;
+    
+}
+.diseño{
+    background-color:#ffff99;
+   
+}
+.hlc{
+    background-color:#99e6ff ;
+
+}
+.servidor{
+    background-color:#99b3ff;
+}
+.empresa{
+    background: #ff9999;
+}
+.cliente{
+background:#99ffbb;
+}
