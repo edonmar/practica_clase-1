@@ -1,3 +1,4 @@
+$colorBordes: black;
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@
             color: coral;
     }
     hr{
-        border: 2px solid black;
+        border: 2px solid $colorBordes;
     }
 #info{
     margin-left: auto;
@@ -42,7 +43,7 @@
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        border: 2px solid black;
+        border: 2px solid $colorBordes;
     }
     h2{
         text-decoration: underline;
